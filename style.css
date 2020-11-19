@@ -15,10 +15,13 @@ h2 {
  text-decoration: underline #c89108;
  }
 h3 {
+ font-size: 130%;
+ color: rbg(0,50,100);
+}
+h4 {
  font-size: 120%;
  color: rbg(0,50,100);
 }
-
 p,ul,li,td {
  color: ; 
  }
