@@ -41,3 +41,10 @@ a:hover {
 a:active, a: {
  color: ;
 }
+li {
+ font-family: ;
+ font-size: ;
+ color:;
+ display :;
+ list-style-image : url(puce.png);
+} 
