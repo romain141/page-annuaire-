@@ -16,12 +16,12 @@ h2 {
  }
 h3 {
  font-size: 150%;
- color: rbg(0,50,100);
+ color: rbg(0,50,110);
  font-weight: normal;
 }
 h4 {
- font-size: 110%;
- color: rbg(0,50,100);
+ font-size: 140%;
+ color: rbg(0,50,110);
  font-weight: lighter;
 }
 p,ul,li,td {
@@ -35,7 +35,7 @@ a:visited {
  color: gray;
  }
 a:hover {
- color: ;
+ color:#c89108;
  text-decoration: ;
 }
 a:active, a: {
