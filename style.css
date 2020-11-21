@@ -36,9 +36,7 @@ a:visited {
  color: gray;
  }
 a:hover {
- color:#c89108;
- text-decoration: ;
-}
+ background-color: gold ;}
 a:active, a: {
  color: ;
 }
