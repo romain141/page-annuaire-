@@ -47,4 +47,4 @@ li {
  display :;
  list-style-image : url(puce.png);
 } 
-table { color: rbg(0,50,110 ;width: 50%;}
+table {border: rbg(0,50,110 ;width: 50%;}
