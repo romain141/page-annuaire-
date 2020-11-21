@@ -30,6 +30,7 @@ p,ul,li,td {
 a:link {
  color: ;
  text-decoration: ;
+ hover{ color: black}
  }
 a:visited {
  color: gray;
