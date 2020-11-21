@@ -29,14 +29,14 @@ p,ul,li,td {
  }
 a:link {
  color: ;
- text-decoration: ;
+ text-decoration:none ;
  hover{ color: black}
  }
 a:visited {
  color: gray;
  }
 a:hover {
- background-color: gold ;}
+ background-color:#c89108;}
 a:active, a: {
  color: ;
 }
