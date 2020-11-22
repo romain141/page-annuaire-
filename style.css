@@ -30,13 +30,12 @@ p,ul,li,td {
 a:link {
  color: ;
  text-decoration:none ;
- hover{ color: black}
  }
 a:visited {
  color: gray;
  }
 a:hover {
- background-color:#c89108;}
+ color :#c89108 ; background-color:} *les liens survolés sont colorés*
 a:active, a: {
  color: ;
 }
