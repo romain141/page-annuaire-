@@ -28,9 +28,9 @@ p,ul,li,td {
  color: ; 
  }
 a:link {
- color: ;
+ color:rbg(0,50,110);
  text-decoration:none ;
- }
+ } *lien en bleu sans soulignage*
 a:visited {
  color: gray;
  }
