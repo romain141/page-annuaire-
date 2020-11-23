@@ -30,12 +30,12 @@ p,ul,li,td {
 a:link {
  color:rbg(0,50,110);
  text-decoration:none ;
- } *lien en bleu sans soulignage*
+ } 
 a:visited {
  color: gray;
  }
 a:hover {
- color :#c89108 ; background-color:} *les liens survolés sont colorés*
+ color :#c89108 ; background-color:}
 a:active, a: {
  color: ;
 }
