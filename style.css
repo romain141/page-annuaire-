@@ -28,11 +28,11 @@ p,ul,li,td {
  color: ; 
  }
 a:link {
- color:;
+ color:#00326e ;
  text-decoration:none ;
  } 
 a:visited {
- color: rbg(0,50,110);
+ color: #00326e ;
  }
 a:hover {
  color :#c89108 ; background-color:}
