@@ -4,13 +4,9 @@ html, body {
  }
 body {
  background-color: #E6E6FA;
+ font-family: Merriweather;
  font-size: 100%;
- }
-@font-face {font-family: 'Merriweather Sans';
-  font-style: normal;
-  font-weight: 400;
-  src: url('../fonts/merriweather-sans-v13-latin-regular.eot');
-};
+ };
  h1 {color: rgb(0, 50, 110); font-size: 70px; }
  
 h2 {
