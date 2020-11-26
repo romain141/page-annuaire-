@@ -3,10 +3,21 @@ html, body {
  padding-left: 30;
  }
 body {
- background-color: #E6E6FA; 
- font-family: Merriweather; 
+ background-color: #E6E6FA;
  font-size: 100%;
  }
+@font-face {
+  font-family: 'Merriweather Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/merriweather-sans-v13-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../fonts/merriweather-sans-v13-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/merriweather-sans-v13-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/merriweather-sans-v13-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/merriweather-sans-v13-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/merriweather-sans-v13-latin-regular.svg#MerriweatherSans') format('svg'); /* Legacy iOS */
+};
  h1 {color: rgb(0, 50, 110); font-size: 70px; }
  
 h2 {
