@@ -2,6 +2,9 @@ html, body {
  margin: 0;
  padding-left: 30;
  }
+@font-face {
+	font-family: "Merriweather";
+	src: url('Merriweather-Regular.ttf')
 body {
  background-color: #E6E6FA; 
  font-family: Merriweather; 
