@@ -2,18 +2,27 @@
 <head>
   <link href="style.css" rel="stylesheet" media="all" type="text/css"> </style>
   <style> 
-    div {
-      width: 100px;
-      height: 100px;
-      background-color: black;
-      animation-name: Annuaire des Promotions;
-      animation-duration: 4s;
+.slide-right {
+   width: 100%;
+   overflow: hidden;
+   margin-left: 400px;
+   max-width: 500px
+}
+
+.slide-right h1 {
+   animation: 2s slide-right;
+   animation-delay: 2s;
+}
+
+@keyframes slide-right {
+    from {
+       margin-left: -500px;
     }
-    
-    @keyframes Annuaire des Promotions {
-      from {background-color: black;}
-      to {background-color: whitesmoke;}
+
+    to {
+       margin-left: 0%;
     }
+ }
     </style>
 <body>
 <p>
@@ -21,8 +30,9 @@
 </p>
 <center>
 <p style="text-align: left; padding-left: 10pt;">
-<h1>
-Annuaire des Promotions
+<div class="slide-right">
+<h1>Annuaire des Promotions
+  </div>
 </h1>
 </p>
 </center>
