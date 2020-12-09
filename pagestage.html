@@ -1,7 +1,23 @@
 <html>
 <head>
   <link href="style.css" rel="stylesheet" media="all" type="text/css"> </style>
-  
+  <style>
+    slide-right {
+  width: 100%;
+  overflow: hidden;
+  margin-left: 300px;
+  max-width: 500px
+}
+  .slide-right h1 {
+  animation: 2s slide-right 2s forwards;
+    transform:translateX(-100%);
+}
+
+@keyframes slide-right {
+  to {
+    transform:translateX(0);
+  }
+  </style>
 
 <body>
   
@@ -10,9 +26,11 @@
 </p>
 <center>
 <p style="text-align: left; padding-left: 10pt;">
+  <div class="slide-right">
   <h1>
 Liste des stages
 </h1>
+  </div>
 </p>
 </center>
 <p>
