@@ -4,7 +4,7 @@ html, body {
  }
 body {
  background-color: #E6E6FA;
- font-family: Merriweather;
+ font-family: Helvetica, sans-serif;
  font-size: 100%;
  }
  h1 {color: rgb(0, 50, 110); font-size: 50px; }
