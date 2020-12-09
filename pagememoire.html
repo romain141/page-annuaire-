@@ -1,7 +1,26 @@
 <html>
     <head>
         <link href="style.css" rel="stylesheet" media="all" type="text/css"> </style>
+    <style>
+    slide-right {
+  width: 100%;
+  overflow: hidden;
+  margin-left: 300px;
+  max-width: 500px
+}
+  .slide-right title {
+  animation: 1.5s slide-right 1.5s forwards;
+    transform:translateX(-100%);
+}
+
+@keyframes slide-right {
+  to {
+    transform:translateX(0);
+  }
+  </style>
+    <div class="slide-right">
         <title>liste des mémoires</title>
+    </div>
         <a href="accueil.html"><img src="fleche.png" alt="fleche" width="80"/></a>
     </head>
     <body>
